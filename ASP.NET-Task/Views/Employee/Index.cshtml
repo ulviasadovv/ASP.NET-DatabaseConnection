@@ -1,0 +1,9 @@
+﻿@using ASP.NET_Task.Models;
+@model List<Employee>
+
+<ul>
+    @foreach (var employee in Model)
+    {
+        <li>ID: @employee.ID - Name: @employee.Name - Age: @employee.Age - Salary: @employee.Salary</li>
+    }
+</ul>
